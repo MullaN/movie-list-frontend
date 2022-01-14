@@ -1,0 +1,9 @@
+.poster {
+    max-height: 100px;
+}
+
+.searchResults {
+    z-index: 100;
+    position: absolute;
+    background-color: white;
+}
