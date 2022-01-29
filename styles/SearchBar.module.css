@@ -1,9 +1,48 @@
 .poster {
-    max-height: 100px;
+    width: 75px;
+    height: 100px;
+}
+
+.poster > img {
+    max-height: 100%;
+    max-width: 90%;
+}
+
+.description {
+    align-content: flex-start;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+}
+
+.add {
+    display: flex;
+    width: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
 }
 
 .searchResults {
     z-index: 100;
+    background-color: grey;
     position: absolute;
-    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.searchResult {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: black solid 1px;
+}
+
+.searchBar {
+    position: static;
 }

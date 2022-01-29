@@ -49,18 +49,18 @@ const Home: NextPage = () => {
     }
 
   return (
-    <div className={styles.container}>
+    <>
         <Head>
             <title>Movie Watch List</title>
             <meta name="description" content="A place to create movie watch lists" />
             <link rel="icon" href="/favicon.ico" />
         </Head>
-        <main>
+        <main className={styles.main}>
             <h1>Movie Watch List</h1>
             <SearchBar addToList={addToList}/>
             <List listMovies={listMovies}/>
         </main>
-    </div>
+    </>
   )
 }
 
